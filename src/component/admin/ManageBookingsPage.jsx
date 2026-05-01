@@ -24,7 +24,7 @@ const ManageBookingsPage = () => {
         };
 
         fetchBookings();
-    }, []);
+    }, [fetchBookings]);
 
     useEffect(() => {
         filterBookings(searchTerm);
